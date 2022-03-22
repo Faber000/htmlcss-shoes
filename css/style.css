@@ -8,5 +8,60 @@
 .container {
     max-width: 800px;
     margin: auto;
+    position: relative;
 }
 
+.red {
+    background-color: red;
+    height: 100vh;
+}
+
+.green {
+    background-color: lightgreen;
+    height: 100vh;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 100vh;
+}
+
+.red-box {
+    position: relative;
+    width: 800px;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.green-box {
+    position: relative;
+    width: 800px;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.yellow-box {
+    position: relative;
+    width: 800px;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+.green-text {
+    color: green;
+}
+
+.text {
+    text-align: center;
+    font-size: 30px;
+}
