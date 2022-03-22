@@ -5,9 +5,48 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    z-index: 10;
+    top: 50px;
+    right: 0;
+    width: 400px;
+}
+
+.main-nav, .main-nav ul li {
+    display: inline-block;
+}
+
+li {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-right: 50px;
+    
+}
+
+.main-nav {
+    position: relative;
+}
+
+.main-nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
 .container {
-    max-width: 800px;
-    margin: auto;
+    
     position: relative;
 }
 
@@ -63,5 +102,5 @@
 
 .text {
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
 }
